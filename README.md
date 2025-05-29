@@ -1,3 +1,10 @@
+# test_monkeys_react_weather
+
+based on [monkeys, season 7, React](https://monkeys.co.il/)\
+[weather project](https://www.youtube.com/watch?v=1rFMGZDrzvg&list=PLP-UKVDk32JgydM7VVDr6xIelUaJRCRxl&index=15)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
