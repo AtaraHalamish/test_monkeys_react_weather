@@ -21,8 +21,10 @@ export default function AppWeather() {
         // This function is called when the component mounts.
         // It can be used to fetch initial data or perform setup tasks.
         // console.log("AppWeather mounted, doApi called");
-        let url = `https://api.openweathermap.org/data/2.5/weather?q=${_town}&APPID=XXXYYYZZZ&units=metric`;
-    
+
+        const apiKey = process.env.REACT_APP_OPENWEATHER_API_KEY;
+        let url = `https://api.openweathermap.org/data/2.5/weather?q=${_town}&APPID=${apiKey}&units=metric`;
+
         let resp = await axios.get(url);
         // The axios library is used to make HTTP requests.
         // The response is stored in the resp variable.
